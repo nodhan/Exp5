@@ -102,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 play.setText(R.string.play);
                 mediaPlayer.stop();
+                message.setText(new StringBuilder(R.string.message));
                 changeVisibility(false);
             }
         });
